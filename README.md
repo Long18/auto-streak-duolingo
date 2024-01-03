@@ -24,7 +24,7 @@ document.cookie
   7. For the secret name use `DUOLINGO_JWT` for the secret value use the copied value from step 4.
   8. Go the your forked repository and go the Actions tab and press the button `I understand my workflows, go ahead and enable them`
 
-### For SESSION_PAYLOAD 
+### For Session Payload 
 
 In `index.js`, replace the sample SESSION_PAYLOAD with your own:
 
