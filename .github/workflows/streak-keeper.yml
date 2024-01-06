@@ -2,7 +2,10 @@ name: Keep my Duolingo streak
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '0 0 * * *' # 6 AM Asian time
+    - cron: '0 6 * * *' # 12 PM Asian time
+    - cron: '0 12 * * *' # 6 PM Asian time
+    - cron: '0 15 * * *' # 9 PM Asian time
 
 jobs:
   study:
